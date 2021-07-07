@@ -9,9 +9,9 @@
 <?php
 try{
     $pdo = new PDO(
-        'mysql:host = localhost;dbname = mysql; charset = utf8',
-        'thaliana',
-        'benthamiana'
+        'mysql:host = XXXXXX;dbname = XXXXXX; charset = utf8',
+        'XXXXXXXX',
+        'XXXXXXXX'
     );
     $pdo -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo -> setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
